@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{home.get_title}}</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'src/Examns_stl.css' %}">
+    <link rel="stylesheet" href="{% static 'css/HOME_stilys.css' %}">
+</head>
+<body>
+
+    <header class="top">
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/examn">Examn</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/help">Help</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1><img src="{% static 'img/logoIFcardio.png' %}" alt="IFcardio" id="ifcardio"></h1>
+    </header>
+
+    {% for i in examns %}
+        {% if i.examn_title.upper == "ELETROCARDIOGRAMA DE ESFORÇO" %}
+            <a href="/looper" class="button-examn"><button>ECG Esforço</button></a>
+        {% elif i.examn_title.upper == "ELETROCARDIOGRAMA DE REPOUSO" %}
+            <a href="/looper" class="button-examn"><button>ECG Repouso</button></a>
+        {% else %}
+            <a href="/looper" class="button-examn"><button>{{i.examn_title}}</button></a>
+        {% endif %}
+        <h1 class="title-examn">{{i.examn_title}}</h1>
+        {% for j in i.examn_content.filter %}
+            <p class="paragraph-examn">    {{j.paragraph}}</p>
+        {% endfor %}
+    {% endfor %}
+
+    <footer class="rodape">
+        <img src="{% static 'img/rodape_Template.png' %}" alt="IFPB Engenharia de computação" id="if_Eng">
+        <p id="make"> Make with Django</p>
+    </footer>
+</body>
+</html>

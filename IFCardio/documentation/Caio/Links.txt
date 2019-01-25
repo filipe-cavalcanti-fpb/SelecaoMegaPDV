@@ -1,0 +1,29 @@
+[PROXY]
+Para se conectar ao beaglebone através da internet, precisaremos de um servidor proxy servindo de retransmissor para que os dados gerados pela aplicação sejam acessíveis. Foram encontrados dois serviços que podem, de alguma forma, ser utilizados para conectar-se com o beaglebone através da internet. O Yaler.net (1) funciona como um http relay e permite acesso remoto ao beaglebone tanto em http, quanto em ssh. Os testes realizados com o Yaler.net permitiram a conexão remota e a manipulação do beaglebone de forma eficiente, porém o serviço permite acesso gratuito por apenas 30 dias, se tornando pago depois. O Resin.io não foi testado, mas é uma plataforma de serviço para dispositivos conectados à internet das coisas e permite acesso remoto para até 10 dispositivos gratuitamente sem limite de tempo, porém, é necessário instalar um sistema operacional proprietário da plataforma.
+
+1 - https://yaler.net/beaglebone
+
+2 - https://docs.resin.io/beaglebone/python/getting-started/
+
+[REDE]
+Links para tutoriais de configuração de conexão do beaglebone black com a rede, tanto via USB (1), quanto via Wifi (2). Para conexão Wifi, é importante que o kernel do Sistema Operacional instalado no beaglebone esteja na versão 3.18.x mais atualizada, pois já vem com diversos drivers de dispositivos wifi instalados e estáveis. O teste feito para essa conexão utilizou um adaptador Wifi Intelbras WBN 241.
+
+1 - http://ofitselfso.com/BeagleNotes/HowToConnectBeagleboneBlackToTheInternetViaUSB.php
+
+2 - https://learn.adafruit.com/setting-up-wifi-with-beaglebone-black/configuration
+
+[PYTHON]
+Link para uma biblioteca em Python para utilização em Beaglebone Black. Dentre outras funções da biblioteca, é possível criar um servidor web simples rodando em python para testar conectividade de rede. Além disso, existem funções que permitem a manipulação de dados provenientes das interfaces do beaglebone, incluindo a interface SPI, desde que a interface SPI esteja habilitada.
+
+1 - https://github.com/graycatlabs/PyBBIO
+
+[SPI]
+
+Links de tutoriais que mostram como habilitar e testar a interface SPI0, nos pinos 17, 18, 21 e 22, do beaglebone black.
+Após a habilitação da interface SPI0, é possível utilizar um programa, disponibilizado nos links, para testar se a configuração foi feita corretamente ou não. Um link de loopback é criado conectando a saída do pino 21 e a entrada do pino 18. Caso a conexão tenha sido feita corretamente, e a configuração da interface SPI0 também tenha sido feita corretamente, a execução do programa disponibilizado nos links gera uma saída padrão no console do Beaglebone Black.
+
+1 - https://www.linux.com/learn/how-access-chips-over-spi-beaglebone-black
+
+2 - https://elinux.org/BeagleBone_Black_Enable_SPIDEV#SPI0
+
+3 - http://embedded-basics.blogspot.com.br/2014/10/enabling-spi0-on-beaglebone-black.html

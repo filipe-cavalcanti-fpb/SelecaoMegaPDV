@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFcardio</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/BASE_about.css' %}">
+</head>
+<body>
+    <div id="topo">
+        <figure>
+           <a href="http://www.ifpb.edu.br"> <img src="{% static 'img/campus-campina-grande.png' %}" id="campus"> </a>
+            <img src="{% static 'img/prototipo01.png'%}" id="eng">
+        </figure>
+    </div>
+    <div id="about">
+        {% for abt in about %}
+            <a href="/home"> <h1>{{ abt.get_title}}</h1></a>
+            <h3 id="versao">{{abt.get_version}}</h3>
+            <p>
+                {{abt.get_about_cardio}}
+            </p>
+            <p>
+                {{abt}}
+            </p>
+        {% endfor %}
+    </div>
+</body>
+</html>

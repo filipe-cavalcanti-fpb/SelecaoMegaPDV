@@ -1,0 +1,43 @@
+.button-examn h1{
+    color: grey;
+    width: 255px;
+    height: 80px;
+    font-size: 60px;
+    background-color: #e4e4e4;
+    padding-left: 5px;
+}
+.button-examn{
+    text-transform: uppercase;
+    float: left;
+    padding-left: 20px;
+}
+.button-examn a:link{
+    text-transform: none;
+}
+.button-examn h1:hover{
+    color: #e4e4e4;
+    background-color: grey;
+}
+.button-examn button{
+    background-color: #e4e4e4;
+    color: gray;
+    font-size:60px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+}
+.button-examn:hover button{
+    border: none;
+    color: #e4e4e4;
+    background-color: gray;
+}
+.button-examn{
+    float: left;
+}
+.paragraph-examn{
+}
+.title-examn{
+    text-align: center;
+}

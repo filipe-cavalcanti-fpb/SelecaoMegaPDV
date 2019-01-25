@@ -1,0 +1,36 @@
+https://physionet.org/cgi-bin/atm/ATM
+Link da physionet onde se encontram o banco de dados das cardiopatias a 
+serem dectadas por nosso equipamento.
+
+http://fisiologiaessencial.blogspot.com.br/2010/02/as-derivacoes-e-seus-significados.html
+Link onde são explicadas as derivações do ECG para um melhor entendimento do assunto.
+
+Abaixo temos Links de patentes que servem como prova que nosso 
+equipamento é único e podemos entrar com pedido de patente.
+
+1
+https://patents.google.com/patent/WO2014032140A1/pt?q=ecg&q=autom%C3%A1tico
+“Processo implementado em plataforma de hardware e software para a 
+recepção e a transmissão de sinais inclusive cardíaco s, para fins de 
+interpretação posterior de interesse da saúde, dotado de mobilidade, 
+portabilidade e ergonomia.”
+
+2
+https://patents.google.com/patent/WO2017031559A1/pt?q=ecg&q=autom%C3%A1tico
+“Dispositivo para aquisição e transmissão de dados cardíacos e sinais 
+vitais.”
+
+3
+https://patents.google.com/patent/WO2013131156A1/pt?q=ecg&q=autom%C3%A1tico
+“Método, sistema e aparelho para monitoramento cardíaco contínuo em um 
+indivíduo”
+
+4
+https://patents.google.com/patent/WO2014094095A1/pt?q=ecg&q=automatiza%C3%A7%C3%A3o
+
+“Método em telemedicina para o acompanhamento remoto e em tempo real de 
+procedimentos médicos”
+
+O número 4 não fala somente sobre ECG, mas sobre vários exames que 
+podem ser feitos em casa e analisados pelo médico em tempo real se 
+utilizando da Telemedicina.

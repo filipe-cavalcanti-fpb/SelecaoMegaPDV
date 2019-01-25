@@ -1,0 +1,21 @@
+LINKS
+
+    https://tutorial.djangogirls.org/pt/
+    
+    Neste link há um tutorial para o uso de django de uma forma aplicada, um bom tutorial para iniciar seus estudos em programação web ultilizando o framework Django
+    
+    
+    
+    https://www.djangoproject.com/
+    
+    Site oficial do Django com exemplos, toda sua documentação, tutoriais oficiais e a comunidade oficial para retirada de dúvidas (tipo Stack Overflow).
+    
+    
+    
+    https://www.youtube.com/watch?v=FNQxxpM1yOs&list=PLQVvvaa0QuDeA05ZouE4OzDYLHY-XH-Nd
+    
+    Tutorial em vídeo sobre programação web com django, versão em inglês, não há bons vídeos sobre django em potuguês.
+    
+    
+    
+    

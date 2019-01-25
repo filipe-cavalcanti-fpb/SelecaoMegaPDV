@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{home.get_title}}</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/HOME_stilys.css' %}">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="{% static 'js/example_examn.js' %}"></script>
+</head>
+<body>
+
+    <header class="top">
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/examn">Examn</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/help">Help</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1><img src="{% static 'img/logoIFcardio.png' %}" alt="IFcardio" id="ifcardio"></h1>
+    </header>
+
+    <div class="conteiner-menu">
+        <section class="menu-selecao">
+            <nav>
+                <ul>
+                    <li><a href="/home">Home</a> </li>
+                    <li><a href="/examn">Examn</a> </li>
+                    <li><a href="/result">Pre-Laudo</a> </li>
+                    <li><a href="/help">Ajuda</a> </li>
+                    <li><a href="/about">Sobre</a> </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    <section>
+        {% for i in contact_list %}
+            <h3>{{i.nome}}</h3>
+            <h3>{{i.email}}</h3>
+            <h3>{{i.phone}}</h3>
+            {% for j in i.contac_content.filter %}
+                <p>{{j.paragraph}}</p>
+            {% endfor %}
+        {% endfor %}
+    </section>
+
+    <footer class="rodape">
+        <img src="{% static 'img/rodape_Template.png' %}" alt="IFPB Engenharia de computação" id="if_Eng">
+        <p id="make"> Make with Django</p>
+    </footer>
+</body>
+</html>

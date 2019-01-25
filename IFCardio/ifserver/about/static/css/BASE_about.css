@@ -1,0 +1,25 @@
+#versao{
+    color: darkblue;
+    text-align: right;
+}
+#campus{
+    text-align: left;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#eng{
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+#topo{
+    padding: 10px 100px 0px 100px;
+}
+h1{
+    background-color: #c4c4c4;
+}
+#about{
+    padding: 150px;
+}

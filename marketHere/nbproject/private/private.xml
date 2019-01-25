@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/tests/UserDaoTest.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/rest/MarketResource.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/dao/UserDao.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/dao/javaBean/GroupBean.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/rest/SharedListResource.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/tests/UserHasSharedListDaoTest.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/rest/UserResource.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/dao/GroupDao.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/dao/javaBean/UserBean.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/rest/GroupResource.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/utils/Password.java</file>
+            <file>file:/home/assert/NetBeansProjects/WebApplication6/src/java/br/com/lefi/markethere/jdbc/tests/GroupDaoTest.java</file>
+        </group>
+    </open-files>
+</project-private>

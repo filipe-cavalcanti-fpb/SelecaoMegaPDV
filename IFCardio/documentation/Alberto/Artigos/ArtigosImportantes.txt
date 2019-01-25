@@ -1,0 +1,21 @@
+1. An Overview of Ischemia Detection Techniques
+Explicação sobre várias técnicas de detecção de esquemia, uma delas a que estamos desenvolvendo a Fuzzy Logic. Nos resultados e 
+discussão tem uma tabela informando a "sensibilidade" e a "perícia positiva" de cada uma das técnicas.
+
+2. A cloud computing based 12-lead ECG telemedicine service
+Sistema que possui funcionamento semelhante ao que queremos aplicar nosso dispositivo, se utilizando da telemedicina para diagnóstico mais 
+rápido de cardiopatias, onde toda  a informação do paciente é guardada em um banco de dados e pode ser feita também a análise em tempo real a 
+distância por meio de browser.
+
+3. Cardiomyopathy Detection from Electrocardiogram Features
+Utiliza a Logic Fuzzy associda com a "Otimização baseada em biogeografia"(BBO - sigla em inglês) que é um 
+algoritmo otimização evolutiva baseada na população desevolvidada recetemente.
+
+4. DESENVOLVIMENTO DE UM MONITOR CARDÍACO PORTÁTIL COM CONEXÃO WI-FI PARA TRANSMISSÃO VIA INTERNET  
+Este trabalho descreve o desenvolvimento de um monitor cardíaco portátil com alto poder computacional, 
+permitindo a implementação futura de algoritmos complexos para classificação e identificação de 
+cardiopatias. Além disso, o sistema é capaz de realizar a transmissão via internet para acompanhamento 
+remoto do paciente. Produzido também com a plataforma BeagleBone Black, a mesma que estamos utilizando.
+
+
+

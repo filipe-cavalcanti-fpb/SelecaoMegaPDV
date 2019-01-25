@@ -1,0 +1,25 @@
+Todos esses trabalhos são de grande importância para o nosso projeto, 
+pois relatam diversas formas de análise automática de um ECG, mas o 
+principal deles é "Tese Sistema embarcado de diagnóstico de 
+eletrocardiograma utilizando fuzzy clustering e  correlação", pois é 
+nela que temos as informações do método que estamos desenvolvendo para 
+detecção automática de cardiopatias com Fuzzy Clustering e Correlação.
+
+Breve resumo do autor sobre essas técnicas:
+
+"Este processo de Fuzzy Clustering permite extrair
+as principais características de um sinal de entrada e, através destas 
+características, fornecer
+regras que podem ser utilizadas em vários tipos de aplicações de 
+controle e tomadas de
+decisões. Este trabalho demonstra a possibilidade de utilização deste 
+processo para gerar os
+pontos que representam as características principais de um sinal de 
+eletrocardiograma.
+Para comprovar a funcionalidade do sistema, foi utilizado o método de
+correlação para comparar e obter o grau de similaridade entre o sinal em 
+análise e os sinais de
+um banco de dados com o diagnóstico médico conhecido. A comparação que 
+obtiver maior
+grau de similaridade, será reconhecida como o possível diagnóstico para 
+o paciente."
