@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/inferences/LeastConstrainingValueHeuristic.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/rest/SudokuAvailableValues.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/composite/Matrix3X3Leaf.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/variable/Variable.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/Assignment.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/domainFlyweight/DomainConcreteFlyweight.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/variable/factoryMethod/VariableCreator.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/CSPSingleton.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/graph/builder/GraphBuilder.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/web/index.html</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/graph/Graph.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/composite/MatrixComponent.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/rest/AppRoot.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/inferences/MinimumRemainingValueHeuristic.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/builder/MatrixConcreteBuilder.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/composite/SudokuCSP.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/domainFlyweight/DomainFlyweightFactory.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/rest/SudokuMatrix.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/variable/factoryMethod/VariableConcreteCreator.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/builder/MatrixBuilder.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/rest/Config.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/graph/builder/GraphDirector.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/graph/builder/GraphConcreteBuilder.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/composite/Matrix3X3Composite.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/domainFlyweight/DomainFlyweight.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/CSP/facade/SudokuFacade.java</file>
+            <file>file:/home/assert/SudokuRest/sudokuRest/src/java/br/org/ifpb/edu/sudokucsp/matrix/builder/MatrixDirector.java</file>
+        </group>
+    </open-files>
+</project-private>
